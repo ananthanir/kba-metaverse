@@ -1,0 +1,36 @@
+canvas {
+  border: 1px solid rgb(192, 6, 6);
+}
+
+body {
+  background-color: #000000;
+}
+
+.canvas-container {
+  display: flex;
+  justify-content: center;
+}
+
+#overlay {
+  position: fixed;
+  display: none;
+  width: 40%;
+  height: 30%;
+  top: 25%;
+  left: 35%;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 2;
+  cursor: pointer;
+}
+
+#text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 30px;
+  color: white;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+}
